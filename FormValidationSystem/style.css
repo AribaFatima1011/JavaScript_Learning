@@ -1,0 +1,14 @@
+p {
+    color: red;
+    font-size: 14px;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}

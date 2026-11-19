@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <form id = "myForm">
+        <label for = "username">Full Name:</label>
+        <input type = "text" id = "username" placeholder ="Enter your name">
+        <p id = "nameError"></p>
+        <label for = "email">Email:</label>
+        <input type = "email" id = "email" placeholder ="Enter your email">
+        <p id = "emailError"></p>
+        <label for = "password">Password:</label>
+        <input type = "password" id = "password" placeholder ="Enter password">
+        <p id = "passwordError"></p>
+        <label for = "confirmPassword">Confirm Password:</label>
+        <input type = "password" id = "confirmPassword" placeholder ="Confirm password">
+        <p id = "confirmPasswordError"></p>
+        <label for = "age">Age:</label>
+        <input type = "number" id = "age" placeholder ="Enter age">
+        <p id = "ageError"></p>
+        <label for = "gender">Gender:</label>
+        <select id = "gender">
+            <option value="">Select Gender</option>
+            <option value = "Male">Male</option>
+            <option value = "Female">Female</option>
+            <option value = "Other">Other</option>
+        </select>
+        <p id = "genderError"></p>
+        <button type ="submit">Register</button>
+        <p id = "successMsg"></p>
+    </form>
+    <script src = "script.js"></script>
+</body>
+</html>

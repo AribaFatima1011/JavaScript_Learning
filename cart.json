@@ -1,0 +1,14 @@
+[
+  {
+    "id": 120,
+    "name": "Air Fryer",
+    "price": 47,
+    "quantity": 2
+  },
+  {
+    "id": 112,
+    "name": "Table Lamp",
+    "price": 34,
+    "quantity": 1
+  }
+]
